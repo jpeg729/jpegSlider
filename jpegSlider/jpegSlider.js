@@ -737,7 +737,7 @@
    * slice-*-right means change by slices from left to right using any 
    * type of animation for each slice
    * 
-   * boxes-grow means change by boxes that grow in any order
+   * box-grow means change by boxes that grow in any order
    * 
    * Any effect that isn't in the above lists will be replaced by a 
    * random choice.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+        <name>plg_content_jpegSlider</name>
+        <author>jpeg729</author>
+        <creationDate>June 2014</creationDate>
+        <copyright>Copyright (C) 2014 jpeg729. All rights reserved.</copyright>
+        <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+        <authorEmail>brmj.page@</authorEmail>
+        <authorUrl></authorUrl>
+        <version>1.1</version>
+        <description>PLG_CONTENT_JPEGSLIDER_XML_DESCRIPTION</description>
+        <files>
+                <filename plugin="jpegSlider">jpegSlider.php</filename>
+                <filename>index.html</filename>
+        </files>
+        <media destination="plg_jpegSlider" folder="jpegSlider">
+                <filename>jpegSlider.css</filename>
+                <filename>jpegSlider.js</filename>
+                <filename>PIE.htc</filename>
+                <filename>index.html</filename>
+                <folder>themes</folder>
+        </media>
+        <languages>
+                <language tag="en-GB">en-GB.plg_content_jpegSlider.ini</language>
+                <language tag="en-GB">en-GB.plg_content_jpegSlider.sys.ini</language>
+                <language tag="fr-FR">fr-FR.plg_content_jpegSlider.ini</language>
+                <language tag="fr-FR">fr-FR.plg_content_jpegSlider.sys.ini</language>
+        </languages>
+        <config>
+        </config>
+</extension>

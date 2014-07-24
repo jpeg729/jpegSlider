@@ -42,7 +42,15 @@ The width and height must be specified in pixels (for now).
 
 You can also use it in a module with custom content.
 
-The joomla plugin doesn't yet support passing options to the slider.
+### Options ###
+
+You can pass the following options to the plugin.
+
+    {slider "/path/to/image/folder" 700x350 max=3 random}
+
+*max=3* forces the plugin to choose three images at random from those found in the given folder.
+
+*random* causes the plugin to shuffle the images. Using *max* forces *random* too.
 
 
 ## How to use without joomla ##
